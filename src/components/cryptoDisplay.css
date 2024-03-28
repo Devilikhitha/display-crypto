@@ -1,0 +1,68 @@
+/* CryptoPriceDisplay.css
+.crypto-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .crypto-card {
+    width: 300px;
+    height: 200px;
+    background-color: #f0f0f0;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .crypto-card h2 {
+    margin-bottom: 10px;
+  }
+  
+  .crypto-card p {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+
+  .card1 {
+    height: 70px;
+  }
+  .card-3 {
+    mix-blend-mode: difference;
+    height: 70px;
+  } */
+
+
+
+  /* cryptoDisplay.css */
+
+.crypto-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 60%;
+   margin-top: 0px;
+  }
+  
+  .crypto-card {
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    background-color: bisque;
+  }
+  
+  .crypto-details {
+    flex: 1;
+    margin-left: 20px;
+  }
+  
+  .crypto-logo {
+   height: 10vh;
+  }
+  
