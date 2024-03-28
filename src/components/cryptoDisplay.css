@@ -65,4 +65,18 @@
   .crypto-logo {
    height: 10vh;
   }
-  
+
+
+
+@media screen and (max-width: 768px) {
+  .crypto-container {
+    margin-left: 0; 
+    justify-content: center; 
+  }
+
+  .crypto-card {
+    width: calc(100% - 40px); 
+    max-width: 300px; 
+    margin: 20px auto; 
+  }
+}
